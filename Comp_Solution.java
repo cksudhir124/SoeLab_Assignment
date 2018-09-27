@@ -17,7 +17,7 @@ public class School_Details
         b1=new JButton("SHOW");
         b.setBounds(100,50,100,30);
         b1.setBounds(100,100,100,30);
-    // b button for enter a new frame to fill the all required details of student.    
+    // b button for create a new frame to fill the all required details of student.    
         b.addActionListener(new ActionListener()
         {  
                public void actionPerformed(ActionEvent e)
@@ -53,7 +53,7 @@ public class School_Details
                    t5.setBounds(100,340,200,30);
                    jb.setBounds(200,390,100,30);
                    
-          //jb button for insert the filled student of details into database.         
+          //jb button for insert the filled details of student into database.         
                    jb.addActionListener(new ActionListener()
                    {  
                         public void actionPerformed(ActionEvent e)
@@ -107,7 +107,7 @@ public class School_Details
                    
                }
         });
-     // b1 button for showing the requied JTable of student details,which will be fetch from database table.   
+     // b1 button for showing the requied JTable of student details,which will fetch from database table.   
         b1.addActionListener(new ActionListener()
         {  
                public void actionPerformed(ActionEvent e)
